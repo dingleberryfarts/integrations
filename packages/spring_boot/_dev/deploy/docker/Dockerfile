@@ -1,4 +1,4 @@
-FROM maven:3.8.4-openjdk-8
+FROM maven:3.8.6-openjdk-8
 RUN mkdir -p /build
 RUN chmod -R 777 /build
 WORKDIR /build
